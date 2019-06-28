@@ -1,2 +1,2 @@
 # brutgener
-Small script generating a dictionary for password brut.
+Small script generating a dictionary for brut password.
