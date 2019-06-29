@@ -142,7 +142,14 @@ if value > 0:
 
                 word = get_word()
                 if len(word) >= min_len and len(word) <= max_len:
-                    print(word, file=out_file)
+                    if is_pattern:
+                            word = list(word)
+                            string = list(pattern)
+                            for index, j in enumerate(pat_index):
+                                string[j] = word[index]
+                            print(''.join(string), file=out_file)
+                    else:
+                        print(word, file=out_file)
                     val_written += 1
                     progress += 1
                     bar.update(progress)
@@ -154,8 +161,8 @@ if value > 0:
                         if is_pattern:
                             word = list(word)
                             string = list(pattern)
-                            for i, j in enumerate(pat_index):
-                                string[j] = word[i]
+                            for index, j in enumerate(pat_index):
+                                string[j] = word[index]
                             print(''.join(string), file=out_file)
                         else:
                             print(word, file=out_file)
