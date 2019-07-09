@@ -1,5 +1,6 @@
 #
-#
+# Author: Igor Ivanov
+# 2019
 #
 import sys
 import progressbar
