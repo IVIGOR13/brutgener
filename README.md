@@ -2,7 +2,7 @@
 Small script generating a dictionary for brut password.
 
 # Usage example: 
-![Usage example](https://github.com/IVIGOR13/brutgener/blob/master/example_img.png)
+![Usage example](https://github.com/IVIGOR13/brutgener/blob/master/example_anim.svg)
 
 # Installation
 
