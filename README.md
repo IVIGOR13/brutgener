@@ -5,9 +5,6 @@ Small script generating a dictionary for brut password.
   <img width="700" src="https://github.com/IVIGOR13/brutgener/blob/master/example_anim.svg">
 </p>
 
-<!--# Usage example: 
-![Usage example](https://github.com/IVIGOR13/brutgener/blob/master/example_img.png)-->
-
 ## Interface
 
 ```
