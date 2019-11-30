@@ -23,7 +23,21 @@ out_file           = 0
 
 
 def print_help():
-    print('BRUTGENER')
+    BANNER = """
+     _                _
+    | |              | |
+    | |__  _ __ _   _| |_ __ _  ___ _ __   ___ _ __
+    | '_ \| '__| | | | __/ _` |/ _ \ '_ \ / _ \ '__|
+    | |_) | |  | |_| | || (_| |  __/ | | |  __/ |
+    |_.__/|_|   \__,_|\__\__, |\___|_| |_|\___|_|
+                          __/ |
+                         |___/
+
+    Small script generating a dictionary for brut password
+    
+    Author: IVOGOR13
+    """
+    print(BANNER)
     print()
     print('Usage: \n\tpython3 {}.py [OPTION...] arguments\n'.format(NAME), sep='\n')
     print("""Options: \n """ +
