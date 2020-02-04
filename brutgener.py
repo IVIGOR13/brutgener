@@ -35,10 +35,9 @@ def print_help():
 
     Small script generating a dictionary for brut password
     
-    Author: IVOGOR13
+    Author: IVOGOR13 (Igor Ivanov)
     """
     print(BANNER)
-    print()
     print('Usage: \n\tpython3 {}.py [OPTION...] arguments\n'.format(NAME), sep='\n')
     print("""Options: \n """ +
         """\t-l | --list <path_file>         select file with dictionary\n""" +
